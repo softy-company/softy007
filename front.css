@@ -472,3 +472,70 @@ margin-top:20px;
     font-weight: 400;
     margin-top: 10px;
 }
+@media (max-width:360px) {
+    .name h1{
+        font-size: 25px;
+        }
+    .resume{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 90px;
+    }
+    .aza{
+        padding-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .aza img{
+        width: 90px;
+        height: 95px;
+    }
+    .aza h1 span{
+        font-size: 10px;
+    }
+    .aza p{
+        margin-top: 25px;
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .aza ion-icon {
+font-size: 20px;
+margin-bottom: 0px;
+    }  
+    .aza h1{
+        font-size: 15px;
+        line-height: 17px;
+    }  .rys h1{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .rys{
+        width: 300px;
+        height: 300px;
+        padding-left: 10px;
+    }
+    .rys img{
+        width: 90px;
+        height: 95px;
+    }
+    .rys h1 span{
+        font-size: 10px;
+    }
+    .rys p{
+        margin-top: 25px;
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .rys ion-icon {
+font-size: 20px;
+margin-bottom: 0px;
+    }
+    .icons{
+        margin-top: 20px;
+        margin-right: 51px;
+        gap: 21px;
+    }
+    .nav a{
+        font-size: 10px;
+    }
+}
